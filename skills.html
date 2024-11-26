@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="skills.css">
+</head>
+<body>
+    <header>
+        <h1>About Me</h1>
+        <nav>
+            <a href="#intro">Home</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="intro">
+        <h2>Hello, I'm Trevor</h2>
+        <p>I am passionate about creating websites and coding using various programming languages.</p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-grid">
+            <div class="skill">
+                HTML
+                <button class="dropdown-btn">Details</button>
+                <div class="dropdown-content">
+                    <p>HTML (HyperText Markup Language) is the standard language for creating web pages. I have a basic understanding of this language and i have used it to create simple html projects</p>
+                </div>
+            </div>
+            <div class="skill">
+                CSS
+                <button class="dropdown-btn">Details</button>
+                <div class="dropdown-content">
+                    <p>CSS (Cascading Style Sheets) is used to style and layout web pages.It is more complex compared to html.It makes the websites look more appealing and attractive. I have a basic understanding of this language.</p>
+                </div>
+            </div>
+            <div class="skill">
+                JavaScript
+                <button class="dropdown-btn">Details</button>
+                <div class="dropdown-content">
+                    <p>JavaScript is a programming language that adds interactivity to websites.I am currently learning this programming language inorder to use it to solve problems and come up with solutions</p>
+                </div>
+            </div>
+            <div class="skill">
+                Python
+                <button class="dropdown-btn">Details</button>
+                <div class="dropdown-content">
+                    <p>Python is a versatile programming language known for its simplicity and readability.I have a basic understanding of this programming language.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Your Name"><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Your Email"><br>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" placeholder="Your Message"></textarea><br>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Your Name. All rights reserved.</p>
+    </footer>
+    <script src="skiils.js"></script>
+</body>
+</html>
